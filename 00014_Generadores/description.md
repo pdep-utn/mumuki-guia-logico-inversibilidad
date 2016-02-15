@@ -18,5 +18,7 @@ hermanoVersion2(Uno, Otro) :-
    Uno \= Otro.        % y asi logramos que Uno y Otro lleguen instanciados
 ```
 
-
+> Veamos si queda claro: el siguiente predicado, ¿sera inversible? Pensalo y luego comprobalo en el interprete. 
+>
+> 
 
