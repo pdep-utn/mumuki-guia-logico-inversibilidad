@@ -1,1 +1,1 @@
-descubri los limites... las dos versiones de hermanos
+La inversibilidad es una herramienta poderosa. Pero no es mágica
