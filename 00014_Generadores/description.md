@@ -18,7 +18,10 @@ hermanoVersion2(Uno, Otro) :-
    Uno \= Otro.        % y asi logramos que Uno y Otro lleguen instanciados
 ```
 
-> Veamos si queda claro: el siguiente predicado, ¿sera inversible? Pensalo y luego comprobalo en el interprete. 
+> Veamos si queda claro: el siguiente predicado, ¿sera inversible para su primer argumento? Pensalo y luego comprobalo en el interprete. 
 >
-> 
+> ```prolog
+> despejarX(X, Y) :-
+>   X is Y - 1.
+> ````
 
