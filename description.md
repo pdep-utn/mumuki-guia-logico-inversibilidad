@@ -5,7 +5,7 @@ En las lecciones anteriores aprendimos sobre los elementos básicos del paradigm
 Hasta ahora usando estos elementos pudimos construir consultas que nos responden si una cierta afirmación es verdadera. Por ejemplo:
 
 ```prolog
-? padre(bart, homero).
+? padre(homero, bart).
 yes.
 ```
 

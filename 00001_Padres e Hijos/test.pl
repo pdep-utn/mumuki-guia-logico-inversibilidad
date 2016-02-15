@@ -1,12 +1,12 @@
 test('Homero es el padre de Bart'):
-  padre(bart, homero).
+  padre(homero, bart).
 
 test('Homero es el padre de Lisa'):
-  padre(lisa, homero).
+  padre(homero, lisa).
   
 test('Abraham es el padre de Homero'):
-  padre(homero, abraham).
+  padre(abraham, homero).
   
 test('Abraham es el padre de Herbert'):
-  padre(herbert, abraham).
+  padre(abraham, herbert).
    

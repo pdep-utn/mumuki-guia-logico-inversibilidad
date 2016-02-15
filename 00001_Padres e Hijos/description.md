@@ -8,6 +8,6 @@ Para eso vamos a confeccionar una base de conocimientos que contenga la siguient
 > Escribí la base de conocimiento anterior, de forma que pueda consultarse de la siguiente forma:
 >
 > ```prolog
-> ? padre(lisa, homero).
+> ? padre(homero, lisa).
 > yes
 > ```
