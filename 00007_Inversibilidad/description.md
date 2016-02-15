@@ -11,6 +11,6 @@ En términos del paradigma, decimos que Prolog **instancia** (es decir, le da va
 > ¿Y que pasará si hacemos esto con el segundo argumento? ¡Averigualo vos mismo en la consola! Probá la siguiente consulta: 
 > 
 >```prolog
-> ? padre(lisa, Quien).
+> ? padre(homero, Quien).
 > ```
 
