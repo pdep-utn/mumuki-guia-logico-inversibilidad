@@ -19,4 +19,5 @@ Por eso vamos a decir que hay predicados:
 >   padre(Uno, Padre),
 >   padre(Otro, Padre),
 >   Uno \= Otro.
-
+> 
+> ¿Alguna de ellas es totalmente o parcialmente inversible? ¿Se te ocurre por que?
