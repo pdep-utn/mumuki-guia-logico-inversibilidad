@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: tio
+  inspection: HasUsage:padre
+- binding: hermano
+  inspection: HasUsage:padre
+- binding: tio
+  inspection: HasUsage:hermano
