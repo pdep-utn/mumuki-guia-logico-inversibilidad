@@ -22,4 +22,9 @@ El eje del problema radica en la condición `Uno \= Otro`.
 
 > ¿Por qué? ¿Cúal es el problema del predicado? `\=/2`
 >
-> Probá que sucede al hacer las siguientes consultas
+> Probá que sucede al hacer las siguientes consultas: 
+> 
+> * `4 \= 5`
+> * `4 \= 4`
+> * `X \= 5`
+> * `4 \= X`
