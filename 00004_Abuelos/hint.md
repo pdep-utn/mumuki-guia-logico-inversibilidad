@@ -1,0 +1,1 @@
+Existen predicados infijos `</2`, `>/2`, etc. 

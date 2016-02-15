@@ -1,0 +1,1 @@
+Como ves, Prolog puede hacer comparaciones como `>` o `<`. ¿Podrá hacer cuentas? 

@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: baboso
+  inspection: HasUsage:abuelo
+- binding: abuelo
+  inspection: HasUsage:padre
