@@ -9,15 +9,19 @@ Por eso vamos a decir que hay predicados:
 > ¿Y de que depende que sean inversibles o no? Averigualo vos mismo: 
 >
 > Te dejamos estas dos variantes del predicado hermanos. 
-> 
+>
+> ```prolog
 > hermanoVersion1(Uno, Otro) :-
 >   Uno \= Otro,
 >   padre(Uno, Padre),
 >   padre(Otro, Padre).
+> ```
 >
+> ```prolog
 > hermanoVersion2(Uno, Otro) :-
 >   padre(Uno, Padre),
 >   padre(Otro, Padre),
 >   Uno \= Otro.
-> 
+> ```
+>
 > ¿Alguna de ellas es totalmente o parcialmente inversible? ¿Se te ocurre por que?
