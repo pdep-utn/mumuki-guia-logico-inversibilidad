@@ -10,6 +10,6 @@ yes.
 yes. % porque maggie es nieta de Abraham y tiene menos de dos años
 ```
 
-> Completá la base de conocimiento, de forma que podamos consultarla mediante `abuelo/2` y `baboso/2`
+> Completá la base de conocimiento, de forma que podamos consultarla mediante `abuelo/2` y `preferido/2`
 > 
 > Asumí que ya contás con el predicado `padre/2` en tu base de conocimiento, y con el predicado `edad/2`, que relaciona a un personaje con su edad
