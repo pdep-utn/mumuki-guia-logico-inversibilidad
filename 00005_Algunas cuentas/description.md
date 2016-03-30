@@ -14,5 +14,5 @@ yes
 ? caloriasHamburguesa(84, 200).
 no
 ```
-e
+
 > Veamos si queda claro: escribí un predicado `cuantaNaftaConsume/2` que relaciona la longitud de un viaje (en kilometros) en auto con la cantidad de nafta que consume :car:. Estimar que se consumen 40 litros de nafta cada 600 kilómetros. 
