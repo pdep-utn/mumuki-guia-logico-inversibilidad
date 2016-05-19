@@ -17,5 +17,10 @@ tio(Tio, Sobrino):-
     padre(Padre, Sobrino),
     hermano(Padre, Tio).
     
+hermano(Uno, Otro):-
+    padre(Padre, Uno),
+    padre(Padre, Otro),
+    Uno \= Otro.
+    
 caloriasHamburguesa(PesoEnGramos, Calorias) :-
     Calorias is PesoEnGramos * 2.2 .
