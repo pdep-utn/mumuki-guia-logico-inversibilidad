@@ -2,12 +2,12 @@ Lo que limita la inversibilidad de un predicado es, justamente... la inversibili
 
 Prolog no es capaz de de generar valores para las variables de la nada, sino que "salen" de otros predicados. Por ejemplo:
 
- * los predicados formados exclusivamente por hechos son siempre completamente inversibles: salen directamente de la base de conocimiento
+ * los hechos universales (aquellos que tienen alguna variable) nunca son inversibles. 
+ * los predicados formados exclusivamente por hechos no universales son siempre completamente inversibles: salen directamente de la base de conocimiento
  * los predicados que realicen comparaciones, como el `\=`, `>`, etc son no inversibles
  * el primer argumento del `is` es inversible, pero el segundo no
- * los hechos universales nunca son inversibles. 
 
-¿Que podemos hacer cuando queremos hacer predicados inversibles que utilicen predicados no inversibles en sus condiciones?
+Más adelante seguiremos extendiendo esta lista de casos problemáticos. Entonces... ¿Qué podemos hacer cuando queremos hacer predicados inversibles que utilicen predicados no inversibles en sus condiciones?
 
 Simple: asegurarnos de que todas las variables que les pasemos a estas condiciones esten previamente instanciadas. Por ejemplo: 
 
