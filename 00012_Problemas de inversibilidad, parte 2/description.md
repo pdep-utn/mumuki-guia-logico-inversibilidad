@@ -4,8 +4,8 @@ En este caso, la primera versión es inversible:
 
 ```prolog
 hermanoVersion2(Uno, Otro) :-
-   padre(Uno, Padre),
-   padre(Otro, Padre),
+   padre(Padre, Uno),
+   padre(Padre, Otro),
    Uno \= Otro.
 ```
 
@@ -14,8 +14,8 @@ mientras que la segunda no:
 ```prolog
 hermanoVersion1(Uno, Otro) :-
    Uno \= Otro,
-   padre(Uno, Padre),
-   padre(Otro, Padre).
+   padre(Padre, Uno),
+   padre(Padre, Otro).
 ```
 
 El eje del problema radica en la condición `Uno \= Otro`. 
