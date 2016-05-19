@@ -4,6 +4,10 @@ padre(homero, maggie).
 padre(abraham, homero).
 padre(abraham, herbert).
 
+edad(maggie, 1).
+edad(bart, 10).
+edad(lisa, 8).
+
 abuelo(Abuelo, Nieto):-
     padre(Abuelo, Padre),
     padre(Padre, Nieto).
