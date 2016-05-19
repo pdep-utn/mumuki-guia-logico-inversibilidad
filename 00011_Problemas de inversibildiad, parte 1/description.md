@@ -13,14 +13,14 @@ Por eso vamos a decir que hay predicados:
 > ```prolog
 > hermanoVersion1(Uno, Otro) :-
 >   Uno \= Otro,
->   padre(Uno, Padre),
->   padre(Otro, Padre).
+>   padre(Padre, Uno),
+>   padre(Padre, Otro).
 > ```
 >
 > ```prolog
 > hermanoVersion2(Uno, Otro) :-
->   padre(Uno, Padre),
->   padre(Otro, Padre),
+>   padre(Padre, Uno),
+>   padre(Padre, Otro),
 >   Uno \= Otro.
 > ```
 >
