@@ -21,16 +21,16 @@ También da lo mismo en qué orden escribamos las condiciones de una regla:
 ```prolog
 hermano(Uno, Otro) :-
    Uno \= Otro,
-   padre(Uno, Padre),
-   padre(Otro, Padre).
+   padre(Padre, Uno),
+   padre(Padre, Otro).
 ```
 
 o
 
 ```prolog
 hermano(Uno, Otro) :-
-   padre(Uno, Padre),
-   padre(Otro, Padre),
+   padre(Padre, Uno),
+   padre(Padre, Otro),
    Uno \= Otro.
 ```
 
