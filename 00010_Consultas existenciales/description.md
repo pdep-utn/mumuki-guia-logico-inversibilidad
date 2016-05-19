@@ -7,6 +7,6 @@ Hasta ahora, de todas formas, vale la pena aclarar que venimos haciendo trampa :
 > Probá realizar consultas que pongan a prueba la inversibilidad: de lo que venímos haciendo. Usá variables y variables anónimas en consultas que utilicen los siguientes predicados: 
 > 
 > * `abuelo/2`
-> * `calorias/2`
+> * `caloriasHamburguesa/2`
 > * `tio/2`
 > * `baboso/2`
