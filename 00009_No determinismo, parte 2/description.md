@@ -1,4 +1,4 @@
-Cuando te decíamos que Prolog genera múltiples solucinones no mentíamos: cada solución está conformada por el conjunto de indiviuos que hacen verdadera la consula. 
+Cuando te decíamos que Prolog genera múltiples soluciones no mentíamos: cada solución está conformada por el conjunto de individuos que hacen verdadera la consulta. 
 
 > ```prolog
 > ? padre(Padre, Hijo).
