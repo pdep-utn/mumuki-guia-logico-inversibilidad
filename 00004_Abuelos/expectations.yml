@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: baboso
+- !ruby/hash:BSON::Document
+  binding: baboso
   inspection: HasUsage:abuelo
-- binding: abuelo
+- !ruby/hash:BSON::Document
+  binding: abuelo
   inspection: HasUsage:padre

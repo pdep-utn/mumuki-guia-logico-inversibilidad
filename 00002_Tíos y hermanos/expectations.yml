@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: tio
+- !ruby/hash:BSON::Document
+  binding: tio
   inspection: HasUsage:padre
-- binding: hermano
+- !ruby/hash:BSON::Document
+  binding: hermano
   inspection: HasUsage:padre
-- binding: tio
+- !ruby/hash:BSON::Document
+  binding: tio
   inspection: HasUsage:hermano
