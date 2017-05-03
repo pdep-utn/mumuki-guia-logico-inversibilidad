@@ -1,5 +1,4 @@
 ---
 expectations:
-- !ruby/hash:BSON::Document
-  binding: cuantaNaftaConsume
+- binding: cuantaNaftaConsume
   inspection: HasArity:2
